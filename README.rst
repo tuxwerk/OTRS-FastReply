@@ -28,7 +28,7 @@ http://opar.perl-services.de/dist/FastReply
 Installation
 ------------
 
-Install the opm file in OTRS. Create a GenericAgent job and add the Module: Kernel::System::GenericAgent::PurgeAttachments
+Install the opm file in OTRS.
 
 .. _OTRS: http://www.otrs.org
 .. _AGPL: http://www.gnu.org/licenses/agpl.txt
