@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Framework">
+
+  <ConfigItem Name="Loader::Agent::CommonJS###010-FastReply" Required="1" Valid="1">
+    <Description Translatable="1">Javascript for FastReply</Description>
+    <Group>Framework</Group>
+    <SubGroup>Core::Web</SubGroup>
+    <Setting>
+      <Array>
+        <Item>TX.FastReply.js</Item>
+      </Array>
+    </Setting>
+  </ConfigItem>
+
+  <ConfigItem Name="Loader::Agent::CommonCSS###010-FastReply" Required="1" Valid="1">
+    <Description Translatable="1">CSS for FastReply</Description>
+    <Group>Framework</Group>
+    <SubGroup>Core::Web</SubGroup>
+    <Setting>
+      <Array>
+        <Item>TX.FastReply.css</Item>
+      </Array>
+    </Setting>
+  </ConfigItem>
+
+</otrs_config>

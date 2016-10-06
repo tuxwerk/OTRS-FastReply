@@ -1,0 +1,20 @@
+.fast-reply {
+    position: absolute;
+    background-color: #cdcdcd;
+    z-index: 10;
+}
+.fast-reply.inactive {
+    display: none;
+}
+.fast-reply ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.fast-reply ul li {
+    padding: 5px;
+    cursor: pointer;
+}
+.fast-reply ul li:hover {
+    background-color: orange;
+}
