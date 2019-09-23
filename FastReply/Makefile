@@ -1,4 +1,2 @@
 all:
-	/opt/otrs/bin/otrs.PackageManager.pl -a build -d ./ -p *.sopm -o ..
-
-
+	/opt/otrs/bin/otrs.Console.pl Dev::Package::Build --module-directory ./ *.sopm ..
