@@ -2,7 +2,7 @@
  OTRS Package - Fast Reply
 =====================================
 
-This is a package for the ticket system OTRS_ 4.0
+This is a package for the ticket system OTRS_ 5.0
 
 The answer field in the Views AgentTicketZoom and AgentTicketOverviewPreview will
 be overlayed by a clickable list.

@@ -26,7 +26,7 @@ $(function() {
       var offSetFrame = attachFrame.offset();
       box.removeClass('inactive');
       box[0].style.top = (offSet.top - offSetFrame.top)+ 'px';
-      box[0].style.left = (offSet.left -offSetFrame.left) + 'px'; 
+      box[0].style.left = (offSet.left -offSetFrame.left) + 'px';
       box[0].style.width = (selectEl.outerWidth() + 5)+'px';
     });
     box.click(function(ev) {
@@ -45,6 +45,7 @@ $(function() {
       window.clearTimeout(timeoutID);});
   };
   $('select[name="ResponseID"]').each(function() {
+    $(this).removeClass("Modernize");
     createFastReply($(this));
   });
 });
